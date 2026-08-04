@@ -1,4 +1,4 @@
----Updated information and added the `apiBaseUrl` variable to the health check endpoint and server startup logs.
+Updated information and added the `apiBaseUrl` variable to the health check endpoint and server startup logs.
 mode: 'agent'
 model: GPT-5.5
 description: 'Configure MongoDB and seed octofit_db for the Octofit multi-tier application'
