@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App.jsx';
 
+// BrowserRouter provides client-side navigation for the multi-page Octofit UI.
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

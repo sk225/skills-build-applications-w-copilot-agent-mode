@@ -21,7 +21,10 @@ function App() {
       <header className="mb-4">
         <h1 className="display-6">Octofit Tracker</h1>
         <p className="text-muted">
-          API base URL uses VITE_CODESPACE_NAME when available and falls back to localhost.
+          API base URL uses <code>VITE_CODESPACE_NAME</code> when available and falls back to localhost.
+        </p>
+        <p className="small text-muted">
+          Set <code>VITE_CODESPACE_NAME</code> in <code>frontend/.env.local</code> for GitHub Codespaces.
         </p>
       </header>
 

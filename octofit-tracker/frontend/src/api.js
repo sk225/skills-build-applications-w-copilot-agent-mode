@@ -1,3 +1,5 @@
+// `VITE_CODESPACE_NAME` should be defined in `frontend/.env.local` when using GitHub Codespaces.
+// When unset, the app falls back safely to the local backend at http://localhost:8000.
 export function getApiBaseUrl() {
   const codespaceName = import.meta.env.VITE_CODESPACE_NAME?.trim();
 
